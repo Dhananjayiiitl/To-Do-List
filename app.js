@@ -21,15 +21,15 @@ const todolistSchema={
 const Item=mongoose.model("Item",todolistSchema)
 
 const Playing1=new Item({
-  name:"PLaying1"
+  name:"Hey how are you"
 });
 
 const Playing2=new Item({
-  name:"PLaying2"
+  name:"Lets start making our tudum-list :)"
 });
 
 const Playing3=new Item({
-  name:"PLaying3"
+  name:"press + to add items"
 });
 
 const defaultItems = [Playing1, Playing2, Playing3];
